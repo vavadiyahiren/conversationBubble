@@ -1,0 +1,51 @@
+<resources>
+    <dimen name="dp_1_margin">1dp</dimen>
+    <dimen name="dp_5_margin">5dp</dimen>
+    <dimen name="chat_recv_top_botom_margin">5dp</dimen>
+    <dimen name="dp_10_margin">10dp</dimen>
+    <dimen name="dp_20_margin">20dp</dimen>
+
+
+    <dimen name="common_padding">5dp</dimen>
+    <dimen name="margin_regular">5dp</dimen>
+    <dimen name="small_padding">2dp</dimen>
+    <dimen name="margin_layout_horizontal">10dp</dimen>
+    <dimen name="margin_layout_vertical">15dp</dimen>
+    <dimen name="chat_normal_txt_size">16sp</dimen>
+    <dimen name="txt_very_small">12sp</dimen>
+    <dimen name="message_status_height_width">6dp</dimen>
+
+    <dimen name="chat_group_info_bottom_margin">5dp</dimen>
+    <dimen name="chat_group_info_start_end_margin">15dp</dimen>
+    <dimen name="chat_group_info_top_margin">10dp</dimen>
+
+    <dimen name="secret_icon_height">10dp</dimen>
+    <dimen name="chat_recv_bubble_text_secret_icon_height">20dp</dimen>
+    <dimen name="chk_selection_icon_height_width">20dp</dimen>
+
+    <dimen name="chat_recv_bubble_text_secret_time_start_top_margin">3dp</dimen>
+    <dimen name="chat_recv_bubble_txt_emoji_pading">10dp</dimen>
+    <dimen name="chat_recv_bubble_txt_emoji_start_end_pading">10dp</dimen>
+    <dimen name="chat_recv_bubble_group_divider_height">1dp</dimen>
+    <dimen name="chat_recv_buble_txt_send_name_txt_start_end_pading">10dp</dimen>
+    <dimen name="chat_recv_buble_txt_send_name_txt_top_pading">5dp</dimen>
+    <dimen name="chat_recv_buble_txt_send_name_txt_start_margin">5dp</dimen>
+    <dimen name="chat_recv_buble_txt_send_name_txt_top_margin">2dp</dimen>
+    <dimen name="chat_recv_bubble_group_divider_top_margin">2dp</dimen>
+    <dimen name="chat_recv_txt_bubble_rcv_date_txt_top_margin">8dp</dimen>
+    <dimen name="chat_recv_txt_chk_selection_start_margin">5dp</dimen>
+    <dimen name="chat_recv_txt_chk_selection_top_margin">8dp</dimen>
+    <dimen name="chat_recv_txt_guideline_end_margin">20dp</dimen>
+    <dimen name="chat_recv_txt_botom_pading">5dp</dimen>
+    <dimen name="chat_recv_txt_sectet_txt_top_margin">3dp</dimen>
+    <dimen name="chat_send_bubble_txt_msg_status_txt_end_margin">8dp</dimen>
+    <dimen name="chat_send_bubble_txt_msg_status_txt_top_margin">8dp</dimen>
+    <dimen name="chat_send_bubble_txt_guidline_end_margin">8dp</dimen>
+    <dimen name="chat_send_txt_rcv_msg_min_width">100dp</dimen>
+    <dimen name="chat_send_txt_rcv_msg_max_width">260dp</dimen>
+    <dimen name="chat_send_txt_rcv_msg_end_margin">8dp</dimen>
+    <dimen name="chk_selection_icon_end_margin">8dp</dimen>
+    <dimen name="chat_send_bubble_txt_guidline_begin_margin">45dp</dimen>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Conversation Bubble</string>
+    <string name="message_status_icon">Message status for read delivered</string>
+    <string name="secrate_time_txt">55 Min</string>
+    <string name="secret_time_txt">55 Min</string>
+    <string name="sender_name_txt">Vishal XrStudio Test Dev</string>
+
+
+</resources>

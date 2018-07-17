@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lite_theme_color</item>
+        <item name="colorPrimaryDark">@color/multiple_image_select_primaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RecvHeaderStatusBubble">
+        <item name="android:layout_marginBottom">@dimen/margin_regular</item>
+        <item name="android:layout_marginLeft">@dimen/small_padding</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/status_text_fg</item>
+        <item name="android:textSize">@dimen/txt_very_small</item>
+        <item name="android:paddingLeft">@dimen/common_padding</item>
+        <item name="android:paddingRight">@dimen/common_padding</item>
+    </style>
+
+    <style name="chatTxtStyleSend">
+        <item name="android:layout_marginTop">@dimen/margin_layout_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_layout_horizontal</item>
+        <!--<item name="android:layout_marginRight">@dimen/margin_layout_vertical</item>-->
+        <item name="android:textColor">@color/send_bubble_text_fg</item>
+        <item name="android:textColorLink">@color/link_color</item>
+        <item name="android:textSize">@dimen/chat_normal_txt_size</item>
+
+        <item name="android:layout_marginEnd">@dimen/chat_send_txt_rcv_msg_end_margin</item>
+        <item name="android:padding">@dimen/margin_layout_vertical</item>
+        <item name="android:minWidth">@dimen/chat_send_txt_rcv_msg_min_width</item>
+        <item name="android:maxWidth">@dimen/chat_send_txt_rcv_msg_max_width</item>
+    </style>
+
+    <style name="chatTxtStyleRecv">
+        <item name="android:layout_marginStart">@dimen/margin_regular</item>
+        <item name="android:layout_marginTop">@dimen/chat_recv_top_botom_margin</item>
+        <item name="android:layout_marginBottom">@dimen/chat_recv_top_botom_margin</item>
+        <item name="android:layout_marginRight">@dimen/margin_layout_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/chat_group_info_start_end_margin</item>
+        <item name="android:textColor">@color/recv_bubble_text_fg</item>
+        <item name="android:textColorLink">@color/text_link_fg</item>
+        <item name="android:textSize">@dimen/chat_normal_txt_size</item>
+    </style>
+
+    <style name="RecvHeaderGroupInfo">
+
+        <item name="android:textSize">@dimen/txt_very_small</item>
+        <item name="android:layout_marginTop">@dimen/chat_group_info_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/chat_group_info_bottom_margin</item>
+        <item name="android:layout_marginLeft">@dimen/chat_group_info_start_end_margin</item>
+        <item name="android:layout_marginRight">@dimen/chat_group_info_start_end_margin</item>
+        <item name="android:textColor">@color/primary_light</item>
+
+    </style>
+
+    <style name="SendRecvSecretChatStyle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginStart">@dimen/margin_regular</item>
+        <item name="android:textColor">@color/text_secret_fg</item>
+        <item name="android:textSize">@dimen/txt_very_small</item>
+
+    </style>
+
+
+    <!--<style name="footer_input_view_img_sub_group_style">-->
+        <!--<item name=""></item>-->
+    <!--</style>-->
+    <!--<style name="footer_input_view_img_sub_group_style">-->
+        <!--<item name=""></item>-->
+    <!--</style>-->
+    <!--<style name="footer_input_view_img_sub_group_style">-->
+        <!--<item name=""></item>-->
+    <!--</style>-->
+
+</resources>

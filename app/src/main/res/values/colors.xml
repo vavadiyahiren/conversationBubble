@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lite_theme_color">#00BF9A</color>
+    <color name="colorAccent">#00BF9A</color>
+    <color name="white">#ffffff</color>
+
+    <color name="multiple_image_select_primaryDark">#00BF9A</color>
+
+    <color name="selected_overlay">#352bdbca</color>
+    <color name="group_overlay">#2bbab9b9</color>
+
+    <color name="link_color">#ff007de3</color>
+
+    <!-- Dark Colors -->
+
+    <color name="aqua_marine">#2bdbca</color>
+
+
+    <!-- VIDEO TRIMMER -->
+
+
+    <color name="primary_light">#2bdbca</color>
+    <color name="primary_lighter">#e4fff6</color>
+
+    <color name="ascent_lighter">#1352e4</color>
+
+
+    <color name="text_fg_dark">#000000</color>
+    <color name="text_fg_light">#4a4a4a</color>
+    <color name="text_fg_lighter">#898989</color>
+
+
+    <color name="send_bubble_text_fg">@color/text_fg_light</color>
+    <color name="send_bubble_text_bg">@color/primary_lighter</color>
+    <color name="recv_bubble_text_fg">@color/text_fg_dark</color>
+    <color name="recv_bubble_text_bg">@color/white</color>
+    <color name="status_text_fg">@color/text_fg_lighter</color>
+    <color name="text_link_fg">@color/ascent_lighter</color>
+    <color name="text_secret_fg">#bab9b9</color>
+
+
+</resources>
