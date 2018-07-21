@@ -42,8 +42,6 @@ public class ConversationListAdapter extends RecyclerView.Adapter<RecyclerView.V
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
 
-
-
     }
 
     @Override
@@ -51,7 +49,7 @@ public class ConversationListAdapter extends RecyclerView.Adapter<RecyclerView.V
         return ListCount;
     }
 
-    class ChatBubbleHolder extends RecyclerView.ViewHolder {
+    static class ChatBubbleHolder extends RecyclerView.ViewHolder {
         /**
          * ChatBubble used by this holder.
          */
@@ -69,7 +67,4 @@ public class ConversationListAdapter extends RecyclerView.Adapter<RecyclerView.V
             return chatBubble;
         }
     }
-
-
-
 }

@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setMessageData() {
-       // ConversationListAdapter adapter=new ConversationListAdapter(getApplicationContext(), 8);
         ConversationListAdapter adapter=new ConversationListAdapter(getApplicationContext(), 8);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         conversation_rc_view.setLayoutManager(mLayoutManager);
