@@ -21,6 +21,7 @@ public class TextChatBubble extends ChatBubble {
         super(context);
     }
 
+
     /**
      * Default constructor, don't forget to call super.
      */

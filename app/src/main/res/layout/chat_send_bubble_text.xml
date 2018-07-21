@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/lout_selected_main"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
     android:layout_height="wrap_content"
     android:background="@drawable/selector_row">
 
 
-    <ImageView
+        <ImageView
         android:id="@+id/icon_message_status"
         android:layout_width="@dimen/message_status_height_width"
         android:layout_height="@dimen/message_status_height_width"
-        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
         android:contentDescription="@string/message_status_icon"
         app:layout_constraintBottom_toBottomOf="@+id/txt_receive_date"
         app:layout_constraintEnd_toStartOf="@+id/txt_receive_date"
@@ -23,12 +25,12 @@
         android:id="@+id/txt_receive_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/chat_send_bubble_txt_msg_status_txt_end_margin"
+        android:layout_marginRight="@dimen/chat_send_bubble_txt_msg_status_txt_end_margin"
         android:layout_marginTop="@dimen/chat_send_bubble_txt_msg_status_txt_top_margin"
         android:text="2.29 PM"
         app:layout_constraintEnd_toStartOf="@+id/chkSelection"
-        app:layout_constraintTop_toTopOf="parent" />
-    tools:text="2.29 PM" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2.29 PM" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
@@ -55,8 +57,8 @@
         android:layout_height="wrap_content"
         android:text="Heloo Martin How Are You?"
         app:layout_constraintEnd_toStartOf="@+id/chkSelection"
-        app:layout_constraintTop_toBottomOf="@+id/txt_receive_date" />
-    tools:text="Heloo Martin How Are You?" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_receive_date"
+        tools:text="Heloo Martin How Are You" />
 
 
     <ImageView
@@ -64,7 +66,7 @@
         android:layout_width="@dimen/secret_icon_height"
         android:layout_height="@dimen/secret_icon_height"
         android:layout_gravity="center"
-        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/secrettime"
         app:layout_constraintStart_toStartOf="@+id/txt_receive_message"
         app:layout_constraintTop_toTopOf="@+id/secrettime"
@@ -86,7 +88,7 @@
         android:id="@+id/chkSelection"
         android:layout_width="@dimen/chk_selection_icon_height_width"
         android:layout_height="@dimen/chk_selection_icon_height_width"
-        android:layout_marginEnd="@dimen/chk_selection_icon_end_margin"
+        android:layout_marginRight="@dimen/chk_selection_icon_end_margin"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/secrettime"
         app:layout_constraintEnd_toEndOf="@+id/guideline2"
@@ -113,5 +115,4 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="@dimen/chat_send_bubble_txt_guidline_begin_margin" />
 
-
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
