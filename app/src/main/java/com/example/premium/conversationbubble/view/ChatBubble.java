@@ -146,6 +146,12 @@ public abstract class ChatBubble extends ConstraintLayout {
         if (mMessageDetail != null) {
             onUpdate();
         }
+
+        /*setLayoutParams how a view want to be
+         laid out inside a ConstraintLayout
+        * */
+        setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+
     }
 
     /**
