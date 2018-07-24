@@ -19,6 +19,9 @@
         app:layout_constraintTop_toTopOf="@+id/txt_receive_date"
         app:srcCompat="@drawable/icon_read" />
 
+
+
+
     <TextView
         android:id="@+id/txt_receive_date"
         android:layout_width="wrap_content"
@@ -29,6 +32,7 @@
         app:layout_constraintEnd_toStartOf="@+id/chkSelection"
         app:layout_constraintTop_toTopOf="parent" />
     tools:text="2.29 PM" />
+
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
@@ -55,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="Heloo Martin How Are You?"
         app:layout_constraintEnd_toStartOf="@+id/chkSelection"
-        app:layout_constraintTop_toBottomOf="@+id/txt_receive_date" />
+        app:layout_constraintTop_toBottomOf="@+id/include_receive_date"
     tools:text="Heloo Martin How Are You?" />
 
 

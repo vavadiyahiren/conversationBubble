@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/txt_receive_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/chat_send_bubble_txt_msg_status_txt_end_margin"
+    android:layout_marginTop="@dimen/chat_send_bubble_txt_msg_status_txt_top_margin"
+    android:text="2.29 PM"
+    tools:text="2.29 PM"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
