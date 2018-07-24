@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/chat_replay_bg" />
+    <corners
+        android:bottomLeftRadius="@dimen/dp_0_margin"
+        android:bottomRightRadius="@dimen/dp_0_margin"
+        android:topRightRadius="@dimen/dp_20_margin"
+        android:topLeftRadius="@dimen/dp_20_margin" />
+
+
+</shape>

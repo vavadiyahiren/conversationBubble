@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lout_selected_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_row">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/bubble_guideline_margin" />
+    <View
+        android:id="@+id/viewBackgraound"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_receive_msg"
+        app:layout_constraintBottom_toBottomOf="@+id/secrettime"
+        app:layout_constraintEnd_toEndOf="@id/barrierTextEnd"
+        app:layout_constraintStart_toStartOf="@+id/txt_sender_name"
+        app:layout_constraintTop_toTopOf="@+id/txt_sender_name" />
+
+    <View
+        android:id="@+id/view_old_msg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/recieve_replay_bg"
+        app:layout_constraintBottom_toBottomOf="@id/txt_old_msg"
+        app:layout_constraintEnd_toEndOf="@id/barrierTextEnd"
+        app:layout_constraintStart_toStartOf="@+id/txt_edit_sender_name"
+        app:layout_constraintTop_toTopOf="@id/txt_edit_sender_name" />
+
+    <ImageView
+        android:id="@+id/chkSelection"
+        android:layout_width="@dimen/selection_bubble_width"
+        android:layout_height="@dimen/selection_bubble_height"
+        android:src="@drawable/select_all_uncheck"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/viewBackgraound"
+        app:layout_constraintStart_toStartOf="@+id/guidelineStart"
+        app:layout_constraintTop_toTopOf="@+id/viewBackgraound" />
+
+    <TextView
+        android:id="@+id/txt_receive_date"
+        style="@style/style_timestemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/txt_sender_name"
+        android:text="10:55 AM"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="10:55 AM" />
+
+    <TextView
+        android:id="@+id/txt_sender_name"
+        style="@style/sender_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/chkSelection"
+        app:layout_constraintTop_toBottomOf="@+id/txt_receive_date"
+        android:text="@string/sender_name_txt"
+        tools:text="@string/sender_name_txt" />
+
+    <View
+        android:id="@+id/group_devider"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/chat_recv_bubble_group_divider_height"
+        android:background="@color/group_overlay"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/barrierTextEnd"
+        app:layout_constraintStart_toStartOf="@+id/txt_sender_name"
+        app:layout_constraintTop_toBottomOf="@+id/txt_sender_name" />
+
+
+    <ImageView
+        android:id="@+id/imageEdit"
+        style="@style/chat_edit_txt_bubble_icon_edit_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_5_margin"
+        app:layout_constraintBottom_toTopOf="@+id/txt_old_msg"
+        app:layout_constraintEnd_toEndOf="@id/barrierTextEnd"
+        app:layout_constraintTop_toTopOf="@+id/group_devider"
+        app:srcCompat="@drawable/edit_icon" />
+
+    <TextView
+        android:id="@+id/txt_edit_sender_name"
+        style="@style/chat_edit_bubble_sender_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you"
+        app:layout_constraintStart_toStartOf="@+id/txt_sender_name"
+        app:layout_constraintTop_toBottomOf="@+id/group_devider"
+        tools:text="sdffdssdfs" />
+
+    <TextView
+        android:id="@+id/txt_old_msg"
+        style="@style/chat_edit_old_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="gdgdfgbhj "
+        app:layout_constraintStart_toStartOf="@+id/txt_edit_sender_name"
+        app:layout_constraintTop_toBottomOf="@+id/txt_edit_sender_name"
+        tools:text="gdgdfgbhj " />
+
+    <TextView
+        android:id="@+id/txt_new_msg"
+        style="@style/chat_edit_new_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/txt_sender_name"
+        app:layout_constraintTop_toBottomOf="@+id/txt_old_msg"
+        android:text="sdf  sdf dfdf df "
+        tools:text="sdf  sdf dfdf df " />
+
+    <ImageView
+        android:id="@+id/imageSecretTimer"
+        style="@style/chat_bubble_icon_secret_style"
+        android:layout_width="@dimen/chat_send_edit_ic_secret_width_height"
+        android:layout_height="@dimen/chat_send_edit_ic_secret_width_height"
+        app:layout_constraintBottom_toBottomOf="@+id/secrettime"
+        app:layout_constraintStart_toStartOf="@+id/txt_new_msg"
+        app:layout_constraintTop_toTopOf="@+id/secrettime"
+        app:srcCompat="@drawable/secret_chat" />
+
+    <TextView
+        android:id="@+id/secrettime"
+        style="@style/chat_bubble_secret_time_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/imageSecretTimer"
+        app:layout_constraintTop_toBottomOf="@+id/txt_new_msg"
+        android:text="@string/secret_time_txt"
+        tools:text="@string/secret_time_txt" />
+
+    <android.support.constraint.Group
+        android:id="@+id/secret_chat_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="imageSecretTimer,secrettime" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrierTextEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="txt_sender_name,txt_old_msg,txt_new_msg" />
+
+
+    <android.support.constraint.Group
+        android:id="@+id/send_media_lout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="txt_sender_name,imageEdit,txt_old_msg" />
+
+    <android.support.constraint.Group
+        android:id="@+id/lout_txt_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="viewBackgraound,txt_old_msg,txt_sender_name,view,imageEdit,txt_new_msg" />
+
+</android.support.constraint.ConstraintLayout>
