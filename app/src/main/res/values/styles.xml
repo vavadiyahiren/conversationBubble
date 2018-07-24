@@ -61,6 +61,219 @@
 
     </style>
 
+    <style name="style_timestemp">
+        <item name="android:layout_marginTop">
+            @dimen/chat_send_bubble_txt_msg_status_txt_top_margin
+        </item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/time_color</item>
+        <item name="android:textSize">@dimen/txt_very_small</item>
+        <item name="android:paddingLeft">@dimen/time_text_padding</item>
+        <item name="android:paddingRight">@dimen/time_text_padding</item>
+        <item name="android:paddingTop">@dimen/time_text_margin</item>
+        <item name="android:paddingBottom">@dimen/time_text_margin</item>
+    </style>
+
+    <style name="chat_edit_bubble_sender_name">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/txt_very_small</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:paddingStart">@dimen/chat_edit_bubble_sender_name_padding_start</item>
+        <item name="android:paddingEnd">@dimen/chat_edit_bubble_sender_name_padding_end</item>
+    </style>
+
+    <style name="message_status_style">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginEnd">@dimen/chat_send_edit_txt_ic_msg_status_end_margin
+        </item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="chat_bubble_secret_time_text_style">
+        <item name="android:layout_marginStart">@dimen/chat_send_edit_txt_secret_start_margin</item>
+        <item name="android:layout_marginTop">@dimen/chat_send_edit_txt_secret_top_margin</item>
+        <item name="android:paddingBottom">@dimen/chat_send_edit_txt_secret_top_margin</item>
+        <item name="android:textColor">@color/pinkish_grey</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="chat_edit_txt_bubble_icon_edit_style">
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="chat_bubble_icon_secret_style">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/chat_send_edit_ic_secret_botom_margin</item>
+        <item name="android:layout_marginStart">@dimen/chat_recv_bubble_ic_secret_start_margin
+        </item>
+    </style>
+
+    <style name="sender_name">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/txt_very_small</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:paddingStart">@dimen/sender_name_start_end_padding</item>
+        <item name="android:paddingEnd">@dimen/sender_name_start_end_padding</item>
+        <item name="android:paddingTop">@dimen/sender_name_top_bottom_padding</item>
+        <item name="android:paddingBottom">@dimen/sender_name_top_bottom_padding</item>
+    </style>
+
+    <style name="chat_edit_old_msg">
+        <item name="android:minWidth">@dimen/chat_send_edit_txt_olg_msg_min_width</item>
+        <item name="android:maxWidth">@dimen/chat_send_edit_txt_name_max_width</item>
+        <item name="android:textColor">@color/chat_replay_message_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:paddingBottom">@dimen/chat_edit_old_msg_top_bottom_padding</item>
+        <item name="android:paddingTop">@dimen/chat_edit_old_msg_top_bottom_padding</item>
+        <item name="android:paddingStart">@dimen/chat_edit_old_msg_start_end_padding</item>
+        <item name="android:paddingEnd">@dimen/chat_edit_old_msg_start_end_padding</item>
+    </style>
+
+    <style name="chat_edit_new_msg">
+        <item name="android:minWidth">@dimen/chat_send_edit_txt_new_msg_min_width</item>
+        <item name="android:maxWidth">@dimen/chat_send_edit_txt_name_max_width</item>
+        <item name="android:paddingTop">@dimen/chat_edit_new_msg_top_bottom_padding</item>
+        <item name="android:paddingBottom">@dimen/chat_edit_new_msg_top_bottom_padding</item>
+        <item name="android:paddingStart">@dimen/chat_edit_new_msg_start_end_padding</item>
+        <item name="android:paddingEnd">@dimen/chat_edit_new_msg_start_end_padding</item>
+        <item name="android:textColor">@color/chat_replay_title_message</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MultiContactPicker.Azure" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/azureColorPrimary</item>
+        <item name="colorPrimaryDark">@color/azureColorPrimaryDark</item>
+        <item name="mcpToolbarTheme">@style/Toolbar.Azure</item>
+        <item name="mcpListPopupWindowStyleTheme">@style/Popup.Azure</item>
+    </style>
+
+    <style name="Toolbar.Azure" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="Popup.Azure" parent="Widget.AppCompat.Light.ListPopupWindow">
+
+    </style>
+
+
+
+    <style name="header_txt_style">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_fg_light</item>
+        <item name="android:textSize">@dimen/txt_title_size</item>
+        <item name="android:layout_marginBottom">@dimen/header_top_bottom_margin</item>
+        <item name="android:layout_marginEnd">@dimen/header_start_end_margin</item>
+        <item name="android:layout_marginStart">@dimen/header_start_end_margin</item>
+        <item name="android:layout_marginTop">@dimen/header_top_bottom_margin</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <!--<style name="">-->
+    <!--<item name=""></item>-->
+    <!--</style>-->
+
+
+    <style name="chat_room_raw_timer_icon_style">
+        <item name="android:tint">@color/text_gray</item>
+        <item name="android:padding">@dimen/timer_icon_pading</item>
+        <item name="android:layout_marginStart">@dimen/common_margin</item>
+        <item name="android:layout_marginTop">@dimen/common_margin</item>
+
+    </style>
+
+
+    <style name="chat_room_title_txt_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/chat_room_title_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_description_size</item>
+        <item name="android:layout_marginStart">@dimen/chatroom_header_title_start_margin</item>
+        <item name="android:layout_marginEnd">@dimen/common_margin</item>
+    </style>
+
+    <style name="chat_room_raw_img_status_style">
+        <item name="android:layout_marginBottom">@dimen/chat_room_img_status_margin</item>
+        <item name="android:layout_marginStart">@dimen/chat_room_img_status_margin</item>
+        <item name="android:layout_marginTop">@dimen/chat_room_img_status_margin</item>
+    </style>
+
+    <style name="chat_room_raw_profile_img_style">
+        <item name="android:layout_marginTop">@dimen/chatroom_profile_margin</item>
+        <item name="android:layout_marginBottom">@dimen/chatroom_profile_margin</item>
+    </style>
+
+    <style name="chat_room_timer_txt_style">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginEnd">@dimen/chatroom_time_end_margin</item>
+        <item name="android:textColor">@color/chat_room_timer_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_very_small</item>
+    </style>
+
+    <style name="chat_room_emoji_txt_style">
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/chat_room_msg_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_normal_size</item>
+        <item name="android:layout_marginStart">@dimen/common_margin</item>
+        <item name="android:layout_marginEnd">@dimen/common_margin</item>
+        <item name="android:layout_marginTop">@dimen/common_margin</item>
+
+    </style>
+
+    <style name="chat_room_emoji_second_line_txt_style">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/chat_room_msg_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_normal_size</item>
+        <item name="android:layout_marginTop">@dimen/common_margin</item>
+
+    </style>
+
+
+
+    <style name="no_data_vertical_line_style">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/footer_no_data_line_primary_color</item>
+        <item name="android:textSize">@dimen/txt_title_size</item>
+    </style>
+
+    <style name="no_data_txt_style">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/no_data_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_title_size</item>
+    </style>
+
+    <style name="footer_txt_style">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/footer_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_very_very_small</item>
+    </style>
+
+
+
+    <style name="footer_no_data_txt_style">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/footer_no_data_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_description_size</item>
+    </style>
+
+    <style name="header_edt_style">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/header_edt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_normal_size</item>
+    </style>
+
+    <style name="dialog_txt_style">
+        <item name="android:background">@color/dialog_bg_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/dialog_txt_primary_color</item>
+        <item name="android:textSize">@dimen/txt_normal_size</item>
+    </style>
+
 
     <!--<style name="footer_input_view_img_sub_group_style">-->
         <!--<item name=""></item>-->

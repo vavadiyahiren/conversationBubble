@@ -39,4 +39,144 @@
     <color name="text_secret_fg">#bab9b9</color>
 
 
+    <color name="theme_color">#00BF9A</color>
+    <color name="thread_btn_color">#faf8f8</color>
+
+    <color name="text_gray">#bab9b9</color>
+    <color name="text_dark_gray">#333333</color>
+    <color name="chatroom_title_color">#4a4a4a</color>
+    <color name="view_gray">#cecece</color>
+    <color name="date_text">#acabab</color>
+    <color name="bg_gray">#DFDFDD</color>
+    <color name="green">#419949</color>
+    <color name="contact_color">#ee3365</color>
+    <color name="attachment_text_color">#5b5b5b</color>
+    <color name="transperent">#00000000</color>
+    <color name="multiple_image_select_primary">#00BF9A</color>
+    <color name="multiple_image_select_accent">#af4c4e</color>
+
+    <color name="multiple_image_select_primaryText">#FFFFFF</color>
+
+    <color name="multiple_image_select_toolbarPrimaryText">#FFFFFF</color>
+
+    <color name="multiple_image_select_albumTextBackground">#99FFFFFF</color>
+    <color name="multiple_image_select_imageSelectBackground">#000000</color>
+    <color name="black">#000000</color>
+
+    <color name="multiple_image_select_buttonText">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="subgroup_overlay">#979797</color>
+    <color name="devider_thread">#979797</color>
+    <color name="pdf_color">#C9141B</color>
+    <color name="excel_logo">#1D7044</color>
+    <color name="word_file_color">#2A5699</color>
+    <color name="doc_color">#5DC0F7</color>
+    <color name="info_color">#229499</color>
+    <color name="chat_replay_sander_color">#66bbe1</color>
+    <color name="chat_replay_bg">#f5fffc</color>
+    <color name="chat_replay_recieve_bg">#fafafa</color>
+    <color name="chat_replay_title_message">#4a4a4a</color>
+    <color name="chat_replay_message_color">#575757</color>
+    <color name="selected_answer">#FF9900</color>
+
+    <color name="chat_replay_message_replay_color">#ffffff</color>
+    <color name="chat_replay_message_layout_color">#fafafa</color>
+    <color name="chat_edit_message_layout_color">#2bdbca</color>
+
+    <color name="chat_replay_message_titlename">#bab9b9</color>
+    <color name="chat_image_progress_bacground_color">#2bdbca</color>
+    <color name="chat_audio_reciever_name">#2bdbca</color>
+    <color name="soft_grey_split">#d0d0d0</color>
+    <color name="invite_color">#29A457</color>
+    <color name="attach_color">#BAB9B9</color>
+    <color name="chat_action_bar">#2bdbca</color>
+    <color name="unblock_color">#FF3CB12D</color>
+    <color name="dark_white">#f6f6f6</color>
+    <color name="gray">#80cecece</color>
+    <color name="snackbar">#00949A</color>
+
+    <color name="selection_bg_color">#9E9E9E</color>
+    <color name="border_color">#F1F1F1</color>
+    <color name="azureColorPrimaryDark">#008EF8</color>
+    <color name="azureColorPrimary">#009BFA</color>
+    <color name="azureColorAccent">#FFFFFF</color>
+    <color name="linkPreviewBackground">#FF7D9CAB</color>
+    <color name="background_dark">#263238</color>
+    <color name="attachment_tint_color">#5B5B5B</color>
+
+    <color name="charcoal_grey">#4a4a4a</color>
+    <color name="popup_send">#e4fff6</color>
+    <color name="popup_send_thread">#d1f9ec</color>
+    <color name="create_thread_title">#d1f9ec</color>
+    <color name="create_thread_title_teg">#2d81e8</color>
+    <color name="popup_location_send">#2bdbca</color>
+    <color name="popup_receive">#e4fff6</color>
+    <color name="time_color">#898989</color>
+    <color name="time_color_rec">#f1f1f2</color>
+
+    <!-- Dark Colors -->
+    <color name="text_color_primary_dark">#FFFAFAFA</color>
+    <color name="text_color_secondary_dark">#FF9E9E9E</color>
+    <color name="contact_badge_line_dark">#ff000000</color>
+    <color name="contact_badge_triangle_dark">#cc888888</color>
+    <color name="contact_badge_overlay_dark">#aa888888</color>
+
+    <color name="green_color_gradient">#2bd9c9</color>
+    <color name="purple_color_gradient">#808ffd</color>
+    <color name="aqua_marine_unseek">#b52bdbca</color>
+    <color name="error_msg_color">#ed1887</color>
+    <color name="error_red">#fdc1c5</color>
+    <color name="profile_pic_bg_color">#f5f5f5</color>
+    <color name="pinkish_grey">#bab9b9</color>
+    <color name="profile_font_color">#575757</color>
+
+
+    <color name="typing_bar_color">#faf8f8</color>
+    <color name="attechment_ovel_background">#fafafa</color>
+    <color name="chat_replay_time_color">#898989</color>
+    <color name="invite_text_color">#57b2e4</color>
+    <color name="pale_gray">#f1f1f2</color>
+    <color name="gray_two">#979797</color>
+    <color name="black_transparent">#79000000</color>
+
+    <color name="pale_grey">#f1f1f2</color>
+
+    <!-- VIDEO TRIMMER -->
+    <color name="background_video_color">#2f3031</color>
+    <color name="background_progress_color">#6C6D6D</color>
+    <color name="line_color">#0DC143</color>
+    <color name="shadow_color">#FF000000</color>
+    <color name="line_button">#565758</color>
+    <color name="black_translucent">#50000000</color>
+
+    <color name="txt_gray">#9b9b9b</color>
+
+
+    <color name="primary_header_white">#ffffff</color>
+    <color name="primary_dark">#00BF9A</color>
+
+    <color name="ascent_dark">#ee3365</color>
+    <color name="ascent_light">#C9141B</color>
+
+    <color name="info_dark">@color/text_fg_lighter</color>
+    <color name="header_txt_primary_color">@color/black</color>
+    <color name="footer_txt_primary_color">@color/white</color>
+
+    <color name="chat_room_title_txt_primary_color" >@color/chatroom_title_color</color>
+    <color name="chat_room_timer_txt_primary_color" >@color/txt_gray</color>
+    <color name="chat_room_msg_txt_primary_color" >@color/txt_gray</color>
+
+
+    <color name="footer_no_data_txt_primary_color">@color/pinkish_grey</color>
+    <color name="footer_no_data_line_primary_color">@color/chat_image_progress_bacground_color</color>
+    <color name="no_data_txt_primary_color">@color/chat_replay_message_titlename</color>
+
+    <color name="header_edt_primary_color">@color/white</color>
+
+    <color name="dialog_bg_primary">#537EFF</color>
+    <color name="dialog_txt_primary_color">@color/white</color>
+    <color name="thread_bg">@color/create_thread_title</color>
+
+
 </resources>
