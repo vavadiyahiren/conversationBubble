@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_end="@dimen/chat_recv_txt_guideline_end_margin" />
-<!--
+
 
     <TextView
         android:id="@+id/txt_receive_date"
@@ -38,16 +38,18 @@
         android:layout_marginTop="@dimen/chat_recv_txt_bubble_rcv_date_txt_top_margin"
         android:text="05.15 Pm"
         app:layout_constraintStart_toEndOf="@+id/chkSelection"
-        app:layout_constraintTop_toTopOf="parent" />
-    tools:text="05.15 Pm" />
--->
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="05.15 Pm" />
 
-
-    <include
+<!--    <include
         android:id="@+id/include_receive_date"
         layout="@layout/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/chat_recv_txt_bubble_rcv_date_txt_top_margin"
         app:layout_constraintEnd_toStartOf="@+id/chkSelection"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"/>-->
 
 
     <View
@@ -76,7 +78,7 @@
         android:text="@string/sender_name_txt"
         android:visibility="visible"
         app:layout_constraintStart_toEndOf="@+id/chkSelection"
-        app:layout_constraintTop_toBottomOf="@+id/include_receive_date" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_receive_date" />
     tools:text="@string/sender_name_txt" />
 
     <View
