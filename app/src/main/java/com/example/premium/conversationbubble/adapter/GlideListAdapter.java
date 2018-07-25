@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.RequestOptions;
 import com.example.premium.conversationbubble.R;
 
 import java.util.ArrayList;
@@ -38,9 +39,28 @@ public class GlideListAdapter extends RecyclerView.Adapter<GlideListAdapter.View
 
     public void onBindViewHolder( ViewHolder holder, int position) {
 
+/*        Glide.with(applicationContext)
+                .load(list.get(position))
+                .into(holder.iv_pic);*/
+
+
+/*        Glide.with(applicationContext).load(list.get(position)).apply(new RequestOptions()
+                        .diskCacheStrategy(DiskCacheStrategy.ALL)
+                        .dontAnimate()
+                        .centerCrop()
+                        .dontTransform())
+                .into(holder.iv_pic);*/
+
+    /*
+    * https://bumptech.github.io/glide/doc/getting-started.html#listview-and-recyclerview
+    *
+    * */
+
         Glide.with(applicationContext)
                 .load(list.get(position))
+                .apply(new RequestOptions().placeholder(R.drawable.ic_image_placeholder_24dp).error(R.drawable.ic_image_placeholder_24dp))
                 .into(holder.iv_pic);
+
     }
 
     @Override
