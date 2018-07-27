@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.premium.conversationbubble.R;
@@ -21,6 +22,17 @@ public class GlideListAdapter extends RecyclerView.Adapter<GlideListAdapter.View
 
     Context applicationContext;
     ArrayList<String> list=new ArrayList<String> ();
+
+    /*
+    * RequestOptions are applied to RequestBuilders to allow you to specify a set of options once and then use them for multiple loads:
+
+*/
+
+    RequestOptions options = new RequestOptions()
+            .centerCrop()
+            .placeholder(R.drawable.ic_image_placeholder_24dp)
+            .error(R.drawable.ic_image_placeholder_24dp)
+            .priority(Priority.HIGH);
 
     public GlideListAdapter(Context applicationContext, ArrayList<String> list) {
         this.applicationContext = applicationContext;
@@ -56,9 +68,10 @@ public class GlideListAdapter extends RecyclerView.Adapter<GlideListAdapter.View
     *
     * */
 
+
         Glide.with(applicationContext)
                 .load(list.get(position))
-                .apply(new RequestOptions().placeholder(R.drawable.ic_image_placeholder_24dp).error(R.drawable.ic_image_placeholder_24dp))
+                .apply(options)
                 .into(holder.iv_pic);
 
     }

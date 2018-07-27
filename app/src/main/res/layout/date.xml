@@ -44,7 +44,6 @@ android:layout_height="wrap_content">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/chat_send_bubble_txt_msg_status_txt_end_margin"
-        android:layout_marginTop="@dimen/chat_send_bubble_txt_msg_status_txt_top_margin"
         android:text="2.29 PM"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/icon_message_status"
