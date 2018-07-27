@@ -12,13 +12,13 @@ public class PerformanceTest extends InstrumentationTestCase {
 
     @SmallTest
     public void test() {
-        final long constraintLayoutTime = getLayoutTime(R.layout.activity_main);
+        final long constraintLayoutTime = getLayoutTime(R.layout.chat_send_bubble_text);
 /*
         final long linearLayoutTime = getLayoutTime(R.layout.item_old_linear);
         final long relativeLayoutTime = getLayoutTime(R.layout.item_old_relative);
 */
 
-        Log.i("time without include", "constraint : " + constraintLayoutTime);
+        Log.i(" chat_send_bubble_text time without include", "constraint : " + constraintLayoutTime);
     }
 
     private long getLayoutTime(int layoutRes) {
