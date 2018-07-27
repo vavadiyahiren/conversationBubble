@@ -41,7 +41,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="05.15 Pm" />
 
-<!--    <include
+ <!--   <include
         android:id="@+id/include_receive_date"
         layout="@layout/date"
         android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
         android:text="@string/sender_name_txt"
         android:visibility="visible"
         app:layout_constraintStart_toEndOf="@+id/chkSelection"
-        app:layout_constraintTop_toBottomOf="@+id/txt_receive_date" />
+        app:layout_constraintTop_toBottomOf="@+id/include_receive_date" />
     tools:text="@string/sender_name_txt" />
 
     <View
