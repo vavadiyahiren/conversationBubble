@@ -7,6 +7,8 @@
     android:layout_height="wrap_content"
     android:background="@drawable/selector_row">
 
+    <!--Test-->
+
     <android.support.constraint.Guideline
         android:id="@+id/guidelineEnd"
         android:layout_width="wrap_content"
@@ -79,37 +81,42 @@
         android:id="@+id/txt_name"
         style="@style/chat_edit_bubble_sender_name"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="start"
+        android:layout_height="17dp"
+        android:gravity="left"
         android:maxLines="1"
         android:text="You"
         android:textColor="@color/text_fg_light"
-        app:layout_constraintEnd_toStartOf="@id/chkSelection"
-        app:layout_constraintStart_toStartOf="@id/barrierTextEnd"
+        app:layout_constraintEnd_toStartOf="@id/viewBackgraound"
+        app:layout_constraintStart_toStartOf="@+id/lout_selected_main"
         app:layout_constraintTop_toBottomOf="@+id/txt_receive_date"
-        tools:text="fsdf asd asds dsadsddasdadsd " />
+        tools:text="You" />
+
+
+    <!--
+        app:layout_constraintStart_toStartOf="@+id/lout_selected_main"
+        app:layout_constraintEnd_toStartOf="@id/chkSelection"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"-->
 
     <TextView
         android:id="@+id/txt_old_msg"
         style="@style/chat_edit_old_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@id/chkSelection"
-        app:layout_constraintStart_toEndOf="@+id/barrierTextEnd"
+        app:layout_constraintStart_toStartOf="@+id/viewBackgraound"
         app:layout_constraintTop_toBottomOf="@+id/txt_name"
-        android:text="sdfd  dfg dfg fdgd fdgf"
-        tools:text="sdfd  dfg dfg fdgd fdgf" />
+        android:text="Hey Guys"
+        tools:text="Hey Guys" />
 
     <TextView
         android:id="@+id/txt_new_msg"
         style="@style/chat_edit_new_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="start"
+        app:layout_constraintStart_toStartOf="@+id/lout_selected_main"
         app:layout_constraintEnd_toStartOf="@id/chkSelection"
         app:layout_constraintTop_toBottomOf="@+id/txt_old_msg"
-        android:text="sdfsdf "
-        tools:text="sdfsdf " />
+        android:text="Hey ready for this"
+        tools:text="Hey Guys ready for this" />
 
     <ImageView
         android:id="@+id/imageSecretTimer"
@@ -152,7 +159,7 @@
         android:layout_height="0dp"
         app:barrierDirection="end"
         app:constraint_referenced_ids="txt_name,txt_old_msg,txt_new_msg"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/viewBackgraound" />
 
 
     <android.support.constraint.Group
