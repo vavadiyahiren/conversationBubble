@@ -10,7 +10,7 @@
 
 
 
-<!--    <ImageView
+    <ImageView
         android:id="@+id/icon_message_status"
         android:layout_width="@dimen/message_status_height_width"
         android:layout_height="@dimen/message_status_height_width"
@@ -21,9 +21,6 @@
         app:layout_constraintTop_toTopOf="@+id/txt_receive_date"
         app:srcCompat="@drawable/icon_read" />
 
-
-
-
     <TextView
         android:id="@+id/txt_receive_date"
         android:layout_width="wrap_content"
@@ -33,9 +30,9 @@
         android:text="2.29 PM"
         app:layout_constraintEnd_toStartOf="@+id/chkSelection"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="2.29 PM" />-->
+        tools:text="2.29 PM" />
 
-    <include
+<!--    <include
         android:id="@+id/include_receive_date"
         layout="@layout/date"
         android:layout_width="wrap_content"
@@ -44,7 +41,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toStartOf="@+id/chkSelection"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
 
 
