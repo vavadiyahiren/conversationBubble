@@ -42,24 +42,5 @@ public class GlideImageLoadActivity extends AppCompatActivity {
 
     }
 
-/*    private class MyPreloadModelProvider implements ListPreloader.PreloadModelProvider {
-        @Override
-        @NonNull
-        public List<U> getPreloadItems(int position) {
-            String url = myUrls.get(position);
-            if (TextUtils.isEmpty(url)) {
-                return Collections.emptyList();
-            }
-            return Collections.singletonList(url);
-        }
 
-        @Override
-        @Nullable
-        public RequestBuilder getPreloadRequestBuilder(String url) {
-            return
-                    GlideApp.with(fragment)
-                            .load(url)
-                            .override(imageWidthPixels, imageHeightPixels);
-        }
-    }*/
 }

@@ -7,5 +7,15 @@
     <string name="secret_time_txt">55 Min</string>
     <string name="sender_name_txt">Vishal XrStudio Test Dev</string>
 
+    <string name="display_text">
+    > OK Done Test Italic
+    a starting with * or + are bullet points:
+    *  Ok DONE
+    + OK DONE
+    we are searcg transformed in a `OKDONE` block
+    </string>
 
+    <string name="display_text_new">> Paragraphs starting with \">\" are quotes.
+        \nLines starting with * or + are bullet points:\n* Point one\n+ Point two, where nested
+        text enclosed in quotes is transformed in a `code` block</string>
 </resources>
