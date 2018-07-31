@@ -1,5 +1,6 @@
 package com.example.premium.conversationbubble.view;
 
+import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
@@ -46,6 +47,7 @@ public class AndroidTextActivity extends AppCompatActivity {
                         .markdownToSpans(etMSG.getText().toString());
 
                 tvMSG.setText(text);
+               // tvMSG.setPaintFlags(tvMSG.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
             }
         });
     }
