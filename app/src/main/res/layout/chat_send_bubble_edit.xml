@@ -7,6 +7,8 @@
     android:layout_height="wrap_content"
     android:background="@drawable/selector_row">
 
+
+
     <android.support.constraint.Guideline
         android:id="@+id/guidelineEnd"
         android:layout_width="wrap_content"
@@ -23,6 +25,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/secrettime"
         app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
         app:layout_constraintTop_toTopOf="@+id/txt_name" />
+
 
     <TextView
         android:id="@+id/txt_receive_date"
@@ -64,16 +67,17 @@
         app:layout_constraintStart_toStartOf="@id/barrierTextEnd"
         app:layout_constraintTop_toTopOf="@id/txt_name" />
 
-    <ImageView
+
+
+    <android.support.v7.widget.AppCompatImageView
         android:id="@+id/imageEdit"
-        style="@style/chat_edit_txt_bubble_icon_edit_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_5_margin"
+        app:layout_constraintEnd_toEndOf="@id/viewBackgraound"
         app:layout_constraintBottom_toBottomOf="@+id/txt_name"
         app:layout_constraintEnd_toStartOf="@id/chkSelection"
-        app:layout_constraintTop_toTopOf="@+id/txt_name"
-        app:srcCompat="@drawable/edit_icon" />
+        app:srcCompat="@drawable/edit_icon"/>
 
     <TextView
         android:id="@+id/txt_name"
@@ -100,9 +104,9 @@
         style="@style/chat_edit_old_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@+id/view_old_msg"
+        app:layout_constraintStart_toStartOf="@+id/barrierTextStart"
         app:layout_constraintTop_toBottomOf="@+id/txt_name"
-        android:text="Hey Guys"
+        android:text="Hey Guys how its ur "
         tools:text="Hey Guys" />
 
     <TextView
@@ -110,10 +114,10 @@
         style="@style/chat_edit_new_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@+id/lout_selected_main"
+        app:layout_constraintStart_toStartOf="@+id/barrierTextStart"
         app:layout_constraintEnd_toStartOf="@id/chkSelection"
         app:layout_constraintTop_toBottomOf="@+id/txt_old_msg"
-        android:text="Hey ready for this"
+        android:text="Hey Guys ready for this"
         tools:text="Hey Guys ready for this" />
 
     <ImageView
@@ -155,9 +159,11 @@
         android:id="@+id/barrierTextStart"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:barrierDirection="end"
+        app:barrierDirection="start"
         app:constraint_referenced_ids="txt_name,txt_old_msg,txt_new_msg"
         app:layout_constraintStart_toStartOf="parent" />
+
+
 
 
     <android.support.constraint.Group
@@ -172,5 +178,5 @@
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="viewBackgraound,txt_old_msg,txt_name,view,imageEdit,txt_new_msg" />
 
-
 </android.support.constraint.ConstraintLayout>
+
