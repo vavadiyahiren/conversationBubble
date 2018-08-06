@@ -7,6 +7,8 @@
     android:layout_height="wrap_content"
     android:background="@drawable/selector_row">
 
+
+
     <android.support.constraint.Guideline
         android:id="@+id/guidelineEnd"
         android:layout_width="wrap_content"
@@ -77,9 +79,6 @@
         app:layout_constraintEnd_toStartOf="@id/chkSelection"
         app:srcCompat="@drawable/edit_icon"/>
 
-
-
-
     <TextView
         android:id="@+id/txt_name"
         style="@style/chat_edit_bubble_sender_name"
@@ -105,22 +104,22 @@
         style="@style/chat_edit_old_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@+id/barrierTextStart"
-        app:layout_constraintTop_toBottomOf="@+id/txt_name"
-        android:text="Hey Guys"
-        tools:text="Hey Guys"/>
-
+        android:text="Hey Guys how its ur "
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="51dp"
+        tools:text="Hey Guys" />
 
     <TextView
         android:id="@+id/txt_new_msg"
         style="@style/chat_edit_new_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@+id/txt_old_msg"
+        android:text="Hey Guys ready for this"
+        app:layout_constraintEnd_toStartOf="@id/chkSelection"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view_old_msg"
         app:layout_constraintTop_toBottomOf="@+id/txt_old_msg"
-        android:text="Hey Guys Hey Guys how its ur ready"
-        tools:text="Hey Guys Hey Guys how its ur ready for this Hey"
-      />
+        tools:text="Hey " />
 
     <ImageView
         android:id="@+id/imageSecretTimer"
@@ -168,16 +167,5 @@
 
 
 
-    <android.support.constraint.Group
-        android:id="@+id/lout_edit_send_msg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="txt_name,imageEdit,txt_old_msg" />
-
-    <android.support.constraint.Group
-        android:id="@+id/lout_txt_msg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="viewBackgraound,txt_old_msg,txt_name,view,imageEdit,txt_new_msg" />
 
 </android.support.constraint.ConstraintLayout>
